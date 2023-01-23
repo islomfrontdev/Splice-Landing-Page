@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header {
+  padding: 10px 0;
+}
+header a {
+  color: #a6a8ad;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.signup-btn {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.signup-btn a {
+  color: #000;
+}
+main {
+  background-image: url(./img/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  padding: 100px 0;
+}
+.w-50 {
+  width: 47%;
+}
+main h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 1.08px;
+  color: #ffffff;
+}
+.main-prg {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.main-btn {
+  background: #0033ff;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+}
+.main-btn a {
+  color: #fff;
+}
+.menu-btn {
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+.suptitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  color: #a6a8ad;
+}
+.second-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.w-50 img {
+  width: 100%;
+}
+@media (max-width: 769px) {
+  .w-50 {
+    width: 100%;
+    text-align: center;
+  }
+  main {
+    padding: 50px 0;
+  }
+  .container {
+    width: 98%;
+  }
+  nav {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  main h1 {
+    font-size: 40px;
+    line-height: 30px;
+  }
+}
